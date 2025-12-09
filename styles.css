@@ -1,0 +1,32 @@
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#greeting-message {
+    background-color: yellow;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#contact-form {
+    padding: 16px;
+    border: 2px solid #333;
+    margin: 20px;
+    background-color:azure;
+}
+
+#introduction {
+    padding: 16px;
+    border: 2px solid #333;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.hide-completely {
+    display: none;
+}
+
+.hide-but-keep-space {
+    visibility: hidden;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<ul>
+    <nav style="text-align:center; padding:10px; background:#eee;">
+    <li><a href="subjects.html">Tasks</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </nav>
+    //I chose an unordered list because in terms of navigating a website, there's no need to present the other accessible webpages
+    //as an ordered/numbered list, you want users to explore a website freely and without direction (unless you need them too).
+</ul>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<title>BrightPath Tutoring - Home</title>
+<body>
+    <header>
+        <h1>Hello there! Welcome to BrightPath, a tutoring program provided by EPCC to help you reach your academic goals.
+        </h1>
+    </header>
+    <section id="introduction">
+        <p>We encourage all students from Freshman to Sophomore to partake in this enrichment program. It is absolutely free and offers a wide variety of
+    subjects for all students. Tutors are composed of students like you with high marks and accolades on their transcripts from their
+    corrosponding tutoring subjects. They are vetted by both department heads and deans at EPCC - you'll be recieving the highest quality
+    tutoring the college has to offer!
+
+    <a href="https://www.epcc.edu/">Need to visit the EPCC Website?</a></p>
+    </section>
+    
+    <header>
+        <h2>Get started below! Be sure to include all necessary information.
+        </h2>
+    </header>
+    <section id="contact-form">
+        <h3>Sign up</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Your name">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4"
+                placeholder="How can we help you?"></textarea>
+            <button type="button" id="greet-btn">Greet Me</button>
+
+        </form>
+
+        <h4>Greeting:</h4>
+        <p id="greeting-message">...</p>
+
+        <p class="hide-completely">This text is hidden with display: none.</p>
+        <p class="hide-but-keep-space">This text is hidden but still takes up space.</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
